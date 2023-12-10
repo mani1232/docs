@@ -1,3 +1,79 @@
 site_name: WorldMandia Docs
+
+repo_url: https://github.com/mani1232/ModernCustomBot
+repo_name: ModernCustomBot
+
 theme:
+  favicon: images/favicon.png
+  logo: assets/logo.png
+  features:
+    - content.tabs.link
+    - navigation.path
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.prune
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    - content.tooltips
+  language: en
+  custom_dir: overrides
   name: material
+  icon:
+    repo: fontawesome/brands/git-alt
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  palette:
+
+    - media: "(prefers-color-scheme)"
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      primary: deep orange
+      scheme: default
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      primary: deep orange
+      scheme: slate
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - search
+  #- social
+  #- optimize
+  - offline
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mani1232
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/mani1232"  target="_blank" rel="noopener">WorldMandia Dev</a>

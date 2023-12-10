@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+---
+title: Information (Read First)
+slug: /
+sidebar_position: 1
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Where should I get the application?
 
-## Commands
+Jenkins Master is recommended
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[Jenkins Master](https://ci.worldmandia.cc/view/WorldMandia/job/ModernCustomBot-job/){ .md-button } [GitHub](https://github.com/mani1232/ModernCustomBot){ .md-button }
 
-## Project layout
+## Where can I get support or ask questions?
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Join the discord here!](https://discord.worldmandia.cc/){ .md-button }
