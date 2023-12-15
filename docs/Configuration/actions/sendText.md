@@ -1,0 +1,7 @@
+---
+title: sendText
+slug: /
+sidebar_position: 1
+---
+
+sendText
